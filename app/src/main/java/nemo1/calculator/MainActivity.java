@@ -295,6 +295,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 res.setText(String.valueOf(0));
+                whatHappened.setText("");
                 operand1=operand2 = 0;
                 operation=null;
                 setOperationOn=false;
